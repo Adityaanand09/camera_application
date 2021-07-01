@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body id="body">
+    <div class="captureImgDisp">
+        
+    </div>
+    <div class ="video-container">
+        <video class="video" autoplay></video>      
+    </div>
+    <div class="video-filter"></div>
+    <div class="container">
+    <div class="filter red-filter red-btn"></div>
+    <div class="filter blue-filter blue-btn"></div>
+    <div class="filter gray-filter gray-btn"></div>
+    <div class="filter blur-filter blur-btn"></div>
+    <div class = "filter no-filter no-filter-btn"></div> 
+    
+        <button class="gallery">Storage</button>
+    
+    </div>
+<div class="scaleContainer">
+        <div class="zoomin">
+                 +
+            </div>
+            <div class="zoomout">
+                -
+            </div>
+</div>
+    
+    
+    <div class="timing">00:00:00</div>
+  
+    <div class="btn-container">
+        <button class="record rnd-btn"></button>
+    </div>
+
+    <div class="btn2-container">
+        <button class="rnd-btn click-image"></button>
+    </div>
+        
+        
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script>
+        var uid = new ShortUniqueId();
+     </script>
+    <script src ="script.js"></script>
+</body>
+</html>
